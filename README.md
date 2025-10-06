@@ -12,10 +12,22 @@
 
 - Resampling data to hourly, daily, and weekly intervals
 
-= Normalization using Min-Max scaling for uniform feature distribution
+- Normalization using Min-Max scaling for uniform feature distribution
 
 **Model Training:**
 A machine learning regression model (XGBoost) is trained on preprocessed data to predict consumption patterns.
 
 **Evaluation:**
 Model performance is evaluated using RMSE, MSE, and MAE metrics.
+
+**Dataset**
+
+**Source:** [Individual Household Electric Power Consumption Dataset (UCI Repository)](http://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
+
+**Technologies & Frameworks Used**
+
+**Programming Language:** Python 🐍
+
+**Machine Learning Libraries:** scikit-learn, NumPy, Pandas, Matplotlib
+
+**Environment:** Google Colab / Jupyter Notebook
